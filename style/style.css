@@ -1,0 +1,203 @@
+
+*{
+    font-family: ubuntu;
+   
+}
+body{
+    margin: 0px;
+   
+}
+.flex-container {
+    display: flex; 
+    color: white;
+  }
+  
+  /* this selector selects all divs inside of .flex-container */
+ 
+  .flex-container div {
+    background: #1f2937;
+    /*border: 1px solid #1f2937;*/
+    height: 50px;
+    flex: 1;
+  }
+
+  li  {
+    list-style-type: none;   
+    color: white;     
+}
+  
+ul {
+        display: flex;
+        gap: 30px;
+} 
+
+ul a {
+    text-decoration: none;
+    color: white
+}
+
+.one h3 {
+    margin-left: 40%;
+    font: 24px #f9faf8;
+
+}
+
+/* end of the nav styling */
+
+.awesome{
+    display: flex;
+    padding: 0 20% 0 20%;
+    gap:5%;
+    background: #1f2937;
+}
+.awesome div {
+    /*border:1px solid gray;*/
+    flex: 1;
+    margin-top: 4%;
+    margin-bottom: 7%;
+    color: white;
+    
+}
+.awesome h3{
+        font: 48px #f9faf8;
+        font-weight: bolder;
+}
+.awesome p{
+    margin:0 5px;
+}
+
+
+.awe-2{
+    align-content: center;
+    background: gray;
+    display: flex;
+    align-items: center;
+        
+    
+}
+button{
+    padding: 1px 10px;
+    border-radius: 3px;
+    background-color:#3882f6; 
+    color: white;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* End of hero section*/
+body > h3 {
+    text-align: center;
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    
+}
+p{
+    /*border:1px solid black;*/
+    width: 100%;
+}
+
+.even-1{
+    /*border: 3px solid red ;*/
+    width:150px;
+    
+}
+.even{
+    display: flex;
+    justify-content: center;
+    /*border: 1px solid gray;*/
+    flex-basis: 40%;
+    padding: 10px;
+    gap:50px;
+    flex-wrap: wrap;
+    
+}
+
+.even-1 p {
+    text-align: center ;
+    font-size: 18px;
+}
+
+/*end of the boxes section start of testimonial*/
+
+.testimonial{
+    display: flex;
+    background: #e5e7eb;
+    align-content:    
+}
+
+.test-1{
+    flex: 1;
+}
+
+.test-2{
+    flex: 1;
+    margin: 50px
+    display:flex;
+    padding: 20px;
+}
+.test-3{
+    flex: 1;
+}
+.self {
+    text-align: right;
+    font-size: 12px; 
+}
+em {
+    font:36px #1f2937
+    
+    
+}
+
+/* end of testimonials & start of call to action */
+
+.action{
+    display: flex;
+    width: 60%; 
+    border-radius: 10px;
+    background: #3882f6;
+    color:white
+
+}
+
+.action-1{
+    flex:3; 
+    padding: 0 0 0 40px
+}
+
+.action-2{
+    flex: 1;
+    text-align: center ;
+}
+.action-2 button {
+    margin-top: 15%;
+    border: 1px solid white;
+}
+.action-c{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+.action-1 p {
+    padding: 0;
+    margin-top: 0;
+}
+.action-1 h3 {
+    margin-bottom: 0
+}
+
+/* end oof call to action and start of the footer */
+
+.footer{
+    text-align: center;
+    background: #1f2937;
+    padding: 10px;
+    color: white;
+}
+
+  
